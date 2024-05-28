@@ -13,6 +13,18 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        darkColor1: "#0A1828",
+        darkColor2: "#172435",
+        black: "rgba(13,13,13,0.99)",
+        lightColor: "#FCFAEE",
+        activeColor: "#FDE64E",
+        activeColor2: "#4DD12D",
+        secondaryColor: "#FDFAE6",
+      },
+      fontFamily: {
+        dosis: ["Dosis", "sans"],
+      },
     },
   },
   plugins: [],
