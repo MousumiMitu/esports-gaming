@@ -15,8 +15,12 @@ const SectionHeader: React.FC<SectionHeader> = ({
   center,
 }) => {
   return (
-    <div className="flex items-center justify-between gap-2 ">
-      <div className="space-y-3">
+    <div
+      className={`flex items-center  gap-2 ${
+        center ? "justify-center" : "justify-between"
+      }`}
+    >
+      <div className={`space-y-3 ${center && "text-center"}`}>
         <h5 className="heading-font uppercase tracking-[7px] text-base  text-activeColor">
           {smallTitle}
         </h5>

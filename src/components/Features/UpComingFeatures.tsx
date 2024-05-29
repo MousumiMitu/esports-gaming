@@ -19,6 +19,7 @@ const UpComingFeatures = () => {
       <div className="grid grid-cols-3 gap-10">
         {gamesCards.map((card) => (
           <div
+            onClick={() => setActiveCard(card)}
             className={`border-2 ${
               activeCard.id === card.id
                 ? "border-activeColor"
@@ -64,6 +65,8 @@ const UpComingFeatures = () => {
           </div>
         ))}
       </div>
+
+      <div></div>
     </div>
   );
 };

@@ -8,6 +8,7 @@ import Button from "@/components/Button/Button";
 import HeroSection from "@/components/HeroSection/HeroSection";
 import TeamCards from "@/components/TeamCards/TeamCards";
 import UpComingFeatures from "@/components/Features/UpComingFeatures";
+import FeatureArea from "@/components/Features/FeatureArea";
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       <HeroSection />
       <TeamCards />
       <UpComingFeatures />
+      <FeatureArea />
     </>
   );
 };
