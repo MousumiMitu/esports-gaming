@@ -9,6 +9,10 @@ import games3 from "@/assets/games/game3.png";
 import GamingIcon from "@/assets/icons/gaming";
 import LiveIcon from "@/assets/icons/LiveIcon";
 import TournamentIcon from "@/assets/icons/TournamentIcon";
+import user1 from "@/assets/user1.jpg";
+import user2 from "@/assets/user2.jpg";
+import user3 from "@/assets/user4.jpg";
+import user4 from "@/assets/user5.jpg";
 
 export const battleCards = [
   { id: 15, image: Team },
@@ -41,4 +45,10 @@ export const featuresCards2 = [
   { id: 14, state: "Game Downloads", title: "40M" },
   { id: 17, state: "Gaming Project", title: "100", plus: true },
   { id: 18, state: "Liked Games", title: "3.6M" },
+];
+export const streamersCards = [
+  { id: 15, image: user1, name: "John Doe" },
+  { id: 14, image: user2, name: "John Doe" },
+  { id: 17, image: user4, name: "John Doe" },
+  { id: 18, image: user3, name: "John Doe" },
 ];

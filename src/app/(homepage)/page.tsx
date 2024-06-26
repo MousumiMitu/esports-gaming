@@ -9,6 +9,7 @@ import HeroSection from "@/components/HeroSection/HeroSection";
 import TeamCards from "@/components/TeamCards/TeamCards";
 import UpComingFeatures from "@/components/Features/UpComingFeatures";
 import FeatureArea from "@/components/Features/FeatureArea";
+import TopRatedUsers from "@/components/Users/TopRatedUsers";
 
 const Home: NextPage = () => {
   return (
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       <TeamCards />
       <UpComingFeatures />
       <FeatureArea />
+      <TopRatedUsers />
     </>
   );
 };
