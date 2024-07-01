@@ -52,3 +52,8 @@ export const streamersCards = [
   { id: 17, image: user4, name: "John Doe" },
   { id: 18, image: user3, name: "John Doe" },
 ];
+export const BattleCards2 = [
+  { id: 15, image: user1, name: "John Doe" },
+  { id: 14, image: user2, name: "John Doe" },
+  { id: 17, image: user4, name: "John Doe" },
+];

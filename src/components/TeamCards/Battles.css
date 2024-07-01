@@ -1,0 +1,30 @@
+.battle-cover {
+  /* width: 20%; */
+  height: 170px;
+  position: relative;
+  clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.battle-cover-shadow {
+  /* width: 147px; */
+  height: 172px;
+  position: absolute;
+  margin: auto;
+  clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+}
+.battle-content {
+  height: 170px;
+  position: relative;
+  clip-path: polygon(100% 0%, 95% 50%, 100% 100%, 0 100%, 5% 50%, 0 0);
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.battle-content-shadow {
+  height: 172px;
+  position: absolute;
+  margin: auto;
+  clip-path: polygon(100% 0%, 95% 50%, 100% 100%, 0 100%, 5% 50%, 0 0);
+}

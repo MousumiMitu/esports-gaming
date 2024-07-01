@@ -1,15 +1,13 @@
 import { NextPage } from "next";
-import Image from "next/image";
 import React from "react";
-import bg from "@/assets/heroImg.png";
-import cover from "@/assets/try3.jpg";
 import "./homepage.css";
-import Button from "@/components/Button/Button";
 import HeroSection from "@/components/HeroSection/HeroSection";
 import TeamCards from "@/components/TeamCards/TeamCards";
 import UpComingFeatures from "@/components/Features/UpComingFeatures";
 import FeatureArea from "@/components/Features/FeatureArea";
 import TopRatedUsers from "@/components/Users/TopRatedUsers";
+import BattleTournament from "@/components/TeamCards/Battles";
+import Contact from "@/components/Contact/Contact";
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +17,8 @@ const Home: NextPage = () => {
       <UpComingFeatures />
       <FeatureArea />
       <TopRatedUsers />
+      <BattleTournament />
+      <Contact />
     </>
   );
 };

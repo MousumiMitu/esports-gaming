@@ -37,3 +37,21 @@ body {
   max-width: 1450px;
   margin: 0 auto;
 }
+
+.contact-area {
+  position: relative;
+  clip-path: polygon(
+    37% 0%,
+    40% 5%,
+    60% 5%,
+    63% 0%,
+    100% 0,
+    100% 100%,
+    63% 100%,
+    60% 95%,
+    40% 95%,
+    37% 100%,
+    0 100%,
+    0% 0%
+  );
+}

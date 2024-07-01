@@ -28,9 +28,12 @@ const TopRatedUsers = () => {
               className="absolute left-0 top-0 rounded-xl border-x-4 border-b-4 border-activeColor w-full h-full z-10 bg-gradient-to-b from-[rgba(255,255,255,0)] 
             via-[#000000ed] via-80% to-[#000000fb] translate-x-2 -translate-y-2 flex items-end"
             >
-              <div>
-                <span className="text-base block text-white font-medium">
+              <div className="p-3">
+                <span className="text-lg block text-white font-semibold">
                   {card.name}
+                </span>
+                <span className="text-sm text-gray-300">
+                  Lorem ipsum dolor sit
                 </span>
               </div>
             </div>
