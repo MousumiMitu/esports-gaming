@@ -13,6 +13,9 @@ import user1 from "@/assets/user1.jpg";
 import user2 from "@/assets/user2.jpg";
 import user3 from "@/assets/user4.jpg";
 import user4 from "@/assets/user5.jpg";
+import blog1 from "@/assets/blog1.png";
+import blog2 from "@/assets/blog2.png";
+import blog3 from "@/assets/blog3.png";
 
 export const battleCards = [
   { id: 15, image: Team },
@@ -56,4 +59,16 @@ export const BattleCards2 = [
   { id: 15, image: user1, name: "John Doe" },
   { id: 14, image: user2, name: "John Doe" },
   { id: 17, image: user4, name: "John Doe" },
+];
+export const BlogCards = [
+  { id: 15, image: blog1, name: "John Doe" },
+  { id: 14, image: blog2, name: "John Doe" },
+  { id: 17, image: blog3, name: "John Doe" },
+];
+export const Navigation = [
+  { id: 15, name: "Home" },
+  { id: 14, name: "About Us" },
+  { id: 17, name: "Tournament" },
+  { id: 17, name: "Blog" },
+  { id: 17, name: "Contact" },
 ];

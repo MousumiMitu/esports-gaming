@@ -55,3 +55,28 @@ body {
     0% 0%
   );
 }
+
+.blog-card {
+  position: relative;
+  /* display: inline-block; */
+  /* width: 100%; */
+  /* display: block; */
+  /* padding-top: 100%; */
+  background: #0a1828;
+  clip-path: polygon(18% 0, 100% 0, 100% 82%, 82% 100%, 0 100%, 0 18%);
+  z-index: 0;
+  /* clip-path: polygon(18% 0, 100% 0, 100% 82%, 82% 100%, 0 100%, 0 18%); */
+  filter: url(#round);
+}
+.blog-img {
+  clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%, 0 29%);
+  filter: url(#round);
+}
+/* .blog-card::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+  background: #0a1828;
+  clip-path: polygon(18% 0, 100% 0, 100% 82%, 82% 100%, 0 100%, 0 18%);
+  z-index: 0;
+} */

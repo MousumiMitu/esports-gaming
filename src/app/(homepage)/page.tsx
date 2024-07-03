@@ -8,6 +8,8 @@ import FeatureArea from "@/components/Features/FeatureArea";
 import TopRatedUsers from "@/components/Users/TopRatedUsers";
 import BattleTournament from "@/components/TeamCards/Battles";
 import Contact from "@/components/Contact/Contact";
+import Blog from "@/components/Blog/Blog";
+import Footer from "@/components/Footer/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +21,8 @@ const Home: NextPage = () => {
       <TopRatedUsers />
       <BattleTournament />
       <Contact />
+      <Blog />
+      <Footer />
     </>
   );
 };

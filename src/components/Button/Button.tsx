@@ -20,7 +20,7 @@ const Button = ({
 
       <Link
         href="/"
-        className={`custom-btn bg-activeColor ${
+        className={`custom-btn bg-activeColor cursor-pointer ${
           bg === "yellow"
             ? "after:bg-activeColor"
             : bg === "black"
