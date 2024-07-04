@@ -80,3 +80,7 @@ body {
   clip-path: polygon(18% 0, 100% 0, 100% 82%, 82% 100%, 0 100%, 0 18%);
   z-index: 0;
 } */
+.footer-logo {
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 94% 100%, 6% 100%);
+}
