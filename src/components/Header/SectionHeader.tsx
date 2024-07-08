@@ -16,15 +16,15 @@ const SectionHeader: React.FC<SectionHeader> = ({
 }) => {
   return (
     <div
-      className={`flex items-center  gap-2 ${
+      className={`flex flex-wrap items-center  gap-2 ${
         center ? "justify-center" : "justify-between"
       }`}
     >
       <div className={`space-y-3 ${center && "text-center"}`}>
-        <h5 className="heading-font uppercase tracking-[7px] text-base  text-activeColor">
+        <h5 className="heading-font uppercase tracking-[7px] lg:text-base md:text-sm text-xs  text-activeColor">
           {smallTitle}
         </h5>
-        <h6 className="capitalize text-3xl font-bold text-white tracking-[2px]">
+        <h6 className="capitalize lg:text-3xl md:text-xl text-lg font-bold text-white tracking-[2px]">
           {title}
         </h6>
       </div>

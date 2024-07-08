@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Header";
 import localFont from "next/font/local";
+import ResNavbar from "@/components/Header/ResNavbar";
+import ReduxProvider from "@/store/ReduxProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -39,39 +41,36 @@ export default function RootLayout({
       <body
         className={`${myFont1.variable} ${myFont2.variable} ${myFont3.variable}`}
       >
-        {/* <svg width="0" height="0">
-          <defs>
-            <clipPath id="customShape" clipPathUnits="objectBoundingBox">
-              <polygon points="0.05 0, 0.95 0, 1 0.1, 1 0.9, 0.95 1, 0.05 1, 0 0.9, 0 0.1" />
-            </clipPath>
-          </defs>
-        </svg> */}
-        <Header />
-        {children}
-        <svg
-          style={{ visibility: "hidden", position: "absolute" }}
-          width="0"
-          height="0"
-          xmlns="http://www.w3.org/2000/svg"
-          version="1.1"
-        >
-          <defs>
-            <filter id="round">
-              <feGaussianBlur
-                in="SourceGraphic"
-                stdDeviation="8"
-                result="blur"
-              />
-              <feColorMatrix
-                in="blur"
-                mode="matrix"
-                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 15 -9"
-                result="goo"
-              />
-              <feComposite in="SourceGraphic" in2="goo" operator="atop" />
-            </filter>
-          </defs>
-        </svg>
+        <ReduxProvider>
+          <ResNavbar />
+          <Header />
+
+          {children}
+          <svg
+            style={{ visibility: "hidden", position: "absolute" }}
+            width="0"
+            height="0"
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+          >
+            <defs>
+              <filter id="round">
+                <feGaussianBlur
+                  in="SourceGraphic"
+                  stdDeviation="8"
+                  result="blur"
+                />
+                <feColorMatrix
+                  in="blur"
+                  mode="matrix"
+                  values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 15 -9"
+                  result="goo"
+                />
+                <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+              </filter>
+            </defs>
+          </svg>
+        </ReduxProvider>
       </body>
     </html>
   );
